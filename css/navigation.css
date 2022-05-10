@@ -1,0 +1,45 @@
+/* Add a blue background color to the top navigation */
+.topnav {
+  background-color: #5d75ad;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #ddd;
+  text-align: center;
+  margin: 1em;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+Style the logo .logo {
+  margin-top: 2em;
+  padding: 0;
+}
+
+.topnav p {
+  color: #fff;
+  margin: 0.5em 5em;
+  font-size: 1.2em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #2c6ef1;
+  color: black;
+}
+
+/* highlight the current page navbar item */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* Hide the hamburger on small screens */
+.topnav .icon {
+  display: none;
+}
