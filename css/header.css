@@ -1,3 +1,6 @@
+/* ***************** Logo *************** */
+
+
 /* Add a blue background color to the top navigation */
 .topnav {
   background-color: #5d75ad;
@@ -43,3 +46,5 @@ Style the logo .logo {
 .topnav .icon {
   display: none;
 }
+
+

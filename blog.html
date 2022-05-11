@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- Bely Fonts -->
-    <link rel="stylesheet" href="https://use.typekit.net/qsl8ddb.css" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <main class="main-columns">
-      <!-- Navigation -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- Bely Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/qsl8ddb.css" />
 
-      <div class="topnav" id="myTopnav">
-          <img class="logo" src="Middle Of The Code.png" alt="logo">
-        <p>A Blog about <em>coding</em> by Stephine Rasberry</p>
-        <a href="blog.html" class="active">Blog</a>
-        <a href="#news">Join</a>
-        <a href="#contact">Contact</a>
-        <a href="index.html">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Navigation -->
+
+    <div class="topnav" id="myTopnav">
+      <img class="logo" src="Middle Of The Code.png" alt="logo">
+      <p>A Blog about <em>coding</em> by Stephine Rasberry</p>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="#news">Join</a>
+      <a href="#contact">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+
+      <!-- Toggle the hamburger button -->
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+</body>
+  </html>
